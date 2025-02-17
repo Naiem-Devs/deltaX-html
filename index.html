@@ -10,10 +10,13 @@
         <!-- Place favicon.ico in the root directory -->
         
 		<!-- CSS here -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
         <link rel="stylesheet" href="assets/css/aos.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
-        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
@@ -21,7 +24,7 @@
 
        
     <!-- header-area START -->
-    <div class="header-area">
+    <div class="header-area " data-aos="fade-down">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-3 col-6 ">
@@ -33,9 +36,25 @@
                     <div class="menu-area">
                         <nav>
                             <ul id="nav">
-                                <li><a href="#">Home</a></li>
+                                <li>
+                                    <a href="#">Home <i class="arrow down"></i></a>
+                                    <div class="dropDown__nav">
+                                        <a href="">About</a>
+                                        <a href="">About</a>
+                                        <a href="">Features</a>
+                                        <a href="">About</a>
+                                    </div>
+                                </li>
                                 <li><a href="#">About</a></li> 
-                                <li><a href="#">Features</a></li> 
+                                <li>
+                                    <a href="#">Features <i class="arrow down"></i></a>
+                                    <div class="dropDown__nav">
+                                        <a href="">About</a>
+                                        <a href="">About</a>
+                                        <a href="">Features</a>
+                                        <a href="">About</a>
+                                    </div>
+                                </li> 
                                 <li><a href="#">Pricing</a></li>  
                                 <li><a href="#">Gallery</a></li>  
                                 <li><a href="#">Team</a></li>  
@@ -44,7 +63,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-6">
-                    <div class="header__btn">
+                    <div class="header__btn" >
                         <a href="" class="thm_btn">Contact US</a>
                         <div class="bar__icon d-block d-lg-none">
                             <a class="humbergar siteBar-btn" href="#">
@@ -60,9 +79,25 @@
         <div class="mobile-menu">
             <nav> 
                 <ul id="nav">
-                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="javascript:void(0)">Home <i class="arrow down"></i></a>
+                        <div class="dropDown__nav">
+                            <a href="">About</a>
+                            <a href="">About</a>
+                            <a href="">Features</a>
+                            <a href="">About</a>
+                        </div>
+                    </li>
                     <li><a href="#">About</a></li> 
-                    <li><a href="#">Features</a></li> 
+                    <li>
+                        <a href="javascript:void(0)"> Features <i class="arrow down"></i></a>
+                        <div class="dropDown__nav">
+                            <a href="">About</a>
+                            <a href="">About</a>
+                            <a href="">Features</a>
+                            <a href="">About</a>
+                        </div>
+                    </li> 
                     <li><a href="#">Pricing</a></li>  
                     <li><a href="#">Gallery</a></li>  
                     <li><a href="#">Team</a></li>  
@@ -84,9 +119,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="hero__contet">
+                        <div class="hero__contet animate__animated animate__pulse" >
                             <h1>THE FUTURE IS WHAT WE MAKE IT</h1>
-                            <p>At the heart of our operations is a commitment to delivering superior products through cutting- edge technology </p>
+                            <p >At the heart of our operations is a commitment to delivering superior products through cutting- edge technology </p>
                             <div class="btns__grp">
                                 <a href="" class="thm_btn">Contact US</a>
                                 <a href="" class="border__btn">Learn More</a>
@@ -103,12 +138,12 @@
         <section class="Purpose-area">
             <div class="container">
                 <div class="row mb_50 pb-3">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" >
                         <div class="sec__title">
                             <h1>Our <br> Purpose</h1>
                         </div>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-8" >
                         <div class="sec__title">
                             <p>The Delta-X Imagine Campus was created to provide advanced manufacturers, researchers, and educational institutions in the semiconductor, photonics, optics, nanomaterials, and biomedical industries a central location to develop industry leading advanced technologies and products.  In this 263,000 sq./ ft, facility approved for and furnished with every possible utility, gas, chemical and waste treatment required for researching, testing, manufacturing, </p>
                         </div>
@@ -148,7 +183,6 @@
 
         <!---------Mission Section START ---------->
         <section class="Mission-area">
-            
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5">
@@ -157,17 +191,17 @@
                             <h1>Our <br> Mission</h1>
                             <p>Delta-X Imagines’ company mission is to provide industry leading facilities and bring talented individuals together for organizations that develop, produce, and distribute technologies to make the world better.</p>
                         </div>
-                        <div class="Mission__content">
+                        <div class="Mission__content" data-aos="fade-right">
                             <a href="" class="thm_btn">Explore More <i><img src="assets/img/all-icons/arrow-right.svg" alt=""></i></a>
-                            <div class=" Mission__info">
+                            <div class=" Mission__info" >
                                 <h3> <span class="countfect" data-num="50"></span> Awwards</h3>
                                 <h3> <span class="countfect" data-num="100"></span> Projects</h3>
                                 <h3> <span class="countfect" data-num="80"></span> Happy clients</h3>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="Mission__img">
+                    <div class="col-lg-7" data-aos="zoom-in">
+                        <div class="Mission__img" >
                             <img src="assets/img/about-img.png" alt="">
                         </div>
                     </div>
@@ -197,43 +231,43 @@
                         <div class="Campus__option">
                             <ul>
                                 <li>
-                                    <a href="">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <i><img src="assets/img/Campus-icon-1.png" alt=""></i>
                                         <h5>Clean Rooms</h5>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <i><img src="assets/img/Campus-icon-2.png" alt=""></i>
                                         <h5>Clean Rooms</h5>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <i class="red"><img src="assets/img/Campus-icon-3.png" alt=""></i>
                                         <h5>Clean Rooms</h5>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <i><img src="assets/img/Campus-icon-4.png" alt=""></i>
                                         <h5>Clean Rooms</h5>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <i><img src="assets/img/Campus-icon-5.png" alt=""></i>
                                         <h5>Clean Rooms</h5>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <i><img src="assets/img/Campus-icon-6.png" alt=""></i>
                                         <h5>Clean Rooms</h5>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <i><img src="assets/img/Campus-icon-7.png" alt=""></i>
                                         <h5>Clean Rooms</h5>
                                     </a>
@@ -245,6 +279,35 @@
                 </div>
             </div>
         </section>
+
+        <div class="Campus-tab-1">
+
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="Campus-tab__content">
+                        <div class="Campus-tab_header">
+                            <h4>Clean Rooms</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="Campus-opt__info">
+                            <i><img src="assets/img/contact-img.png" alt=""></i>
+                            <div class="px-3">
+                                <span>BC Series</span>
+                                <h4>Batch Counter & Bundling</h4>
+                                <p>Efficiently batch single products into precise groups with Pack-Smart’s BC Series, designed for a wide range of materials and applications.</p>
+
+                                <a href="" class="thm_btn">More Details <i><img src="assets/img/all-icons/arrow-right.svg" alt=""></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!---------Campus Section End ---------->
 
 
@@ -535,11 +598,21 @@
         <script src="assets/js/jquery-3.4.1.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/aos.js"></script> 
         <script src="assets/js/owl.carousel.min.js"></script> 
         <script src="assets/js/countfect.min.js"></script> 
+        <script src="assets/js/aos.js"></script> 
         <script src="assets/js/main.js"></script>
+            
+<script>
+AOS.init({
+    mirror: true,
+    duration: 1500,
+    initClassName: 'aos-init',
+    once: true,
+  });
 
+  // data-aos="fade-up" 
+  // data-aos-delay="300" 
+</script>
     </body>
 </html>
-
