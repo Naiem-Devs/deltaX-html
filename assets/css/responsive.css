@@ -301,9 +301,14 @@
     .owl-nav {
         display: flex;
         gap: 20px;
-        justify-content: end;
+        justify-content: space-between;
         margin-top: 10px;
+        text-transform: capitalize;
     }
+
+.owl-next.disabled,.owl-prev.disabled {
+    opacity: .3;
+}
     
     .Mission__info h3 {
         flex-basis: 33%;
